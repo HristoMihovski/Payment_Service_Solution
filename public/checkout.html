@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Buy cool new product</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://js.stripe.com/v3/"></script>
+  </head>
+  <body>
+    <section>
+      <div class="product">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fplatform.softuni.bg%2FContent%2Fimages%2Fopen-graph%2Fsoftuni-default-og.png&f=1&nofb=1&ipt=fb83ad2457e400e3f01504da95ed4f02b5d8d5adc7b237b05faf373f2f00b46c&ipo=images" alt="The cover of Stubborn Attachments" />
+        <div class="description">
+          <h3>SoftUni</h3>
+          <h5>$950.00</h5>
+        </div>
+      </div>
+      <form action="/create-checkout-session" method="POST">
+        <button type="submit" id="checkout-button">Checkout</button>
+      </form>
+    </section>
+  </body>
+</html>
