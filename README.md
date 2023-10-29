@@ -8,5 +8,5 @@ To run the application
 `npm start`
 
 Then open the following link:
-[](http://localhost:4242/home.html)
+http://localhost:4242/home.html
 
